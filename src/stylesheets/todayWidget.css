@@ -1,0 +1,94 @@
+:root {
+  --blue: #A1B3CB;
+  --black: #191919;
+}
+
+#todayWidget {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#todayWidgetTop {
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+#todayWidgetTop>div {
+  width: 25%;
+}
+
+#todayWidgetTop>div>p {
+  font-size: 0.75rem;
+}
+
+#todayWidgetMiddle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8%;
+}
+
+#todayWidgetMiddle img {
+  width: 100%;
+  height: 100%;
+}
+
+#todayWidgetMiddle h1 {
+  margin: 10% 0 0 0;
+  font-size: 2.5rem;
+}
+
+#todayWidgetMiddle h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+#todayWidgetMiddle p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+#todayWidgetBottom {
+  margin-left: 5%;
+  margin-bottom: 8%;
+  width: 90%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#todayWidgetBottom>div {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#todayWidgetBottom p {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+#progressBar {
+  width: 85px;
+  height: 3px;
+  background-color: var(--blue);
+}
+
+#progressBarInner {
+  height: 3px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.3);
+}

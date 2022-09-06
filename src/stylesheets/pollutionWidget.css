@@ -1,0 +1,80 @@
+:root {
+  --blue: #A1B3CB;
+  --black: #191919;
+}
+
+#pollutionWidget {
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pollutionWidget h2 {
+  font-size: 1rem;
+}
+
+#pollutionWidgetLeft {
+  padding: 1.5% 0;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#pollutionWidgetLeft img {
+  width: 70%;
+  height: 70%;
+}
+
+#pollutionWidgetLeft h3 {
+  font-size: 0.8rem;
+}
+
+#pollutionWidgetLeft p {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+#pollutionWidgetLeft>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#pollutionWidgetLeft>div>div {
+  text-align: center;
+}
+
+#pollutionWidgetRight {
+  padding: 1.5% 0;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#pollutionWidgetRight>div {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10%;
+}
+
+#pollutionWidgetRight>div>div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pollutionWidgetRight>div>div>div>p {
+  margin: 0;
+  text-align: center;
+}
+
+#pollutionWidgetRight p {
+  font-size: 0.75rem;
+
+}

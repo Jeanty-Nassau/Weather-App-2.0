@@ -1,0 +1,55 @@
+#welcomePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#welcomeTitle {
+  margin-left: 5vw;
+  width: 70%;
+  font-size: 4rem;
+}
+
+#searchCTA {
+  /* order: 3; */
+  margin-left: 5vw;
+  width: 35vw;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 10px;
+  bottom: 0;
+}
+
+#searchCTA>button {
+  width: 15%;
+  border: none;
+  background-color: transparent;
+  border-left: 1px solid black;
+  cursor: pointer;
+}
+
+#searchCTAInput {
+  width: 75%;
+  margin-left: 30px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  font-family: 'Monument Extended';
+}
+
+#searchCTAInput::placeholder {
+  color: #606060;
+}
+
+#searchCTAInput:focus {
+  outline: none;
+}
+
+#searchCTA:focus-within {
+  box-shadow: 0px 0px 0px 5px #FFFFFF;
+}
